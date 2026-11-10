@@ -1,0 +1,26 @@
+{
+  "project": "단어의 서재 · JLPT N1 압축판",
+  "version": "1.0.0",
+  "cards": 1000,
+  "days": 20,
+  "cards_per_day": 50,
+  "unique_headwords": 1000,
+  "categories": {
+    "명사": 522,
+    "명사·する동사": 12,
+    "동사": 194,
+    "い형용사": 1,
+    "부사": 116,
+    "형용사": 102,
+    "관용표현": 51,
+    "연체사": 2
+  },
+  "keyboard": {
+    "Space": "flip",
+    "Enter": "flip",
+    "ArrowLeft": "previous",
+    "ArrowRight": "next"
+  },
+  "storage": "localStorage (browser-local)",
+  "official_jlpt_vocabulary_list": false
+}
