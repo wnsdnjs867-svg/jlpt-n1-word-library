@@ -1,19 +1,24 @@
 {
   "project": "단어의 서재 · JLPT N1 압축판",
-  "version": "1.0.0",
-  "cards": 1000,
-  "days": 20,
+  "version": "3.0.0",
+  "cards": 800,
+  "days": 16,
   "cards_per_day": 50,
-  "unique_headwords": 1000,
+  "unique_headwords": 800,
   "categories": {
-    "명사": 522,
-    "명사·する동사": 12,
-    "동사": 194,
-    "い형용사": 1,
-    "부사": 116,
-    "형용사": 102,
-    "관용표현": 51,
-    "연체사": 2
+    "동사": 228,
+    "부사": 110,
+    "명사": 208,
+    "명사·する동사": 70,
+    "관용표현": 44,
+    "な형용사": 89,
+    "い형용사": 39,
+    "부사·な형용사": 1,
+    "な형용사·부사": 1,
+    "명사·な형용사": 4,
+    "부사·대명사": 1,
+    "연체사": 3,
+    "부사·명사": 2
   },
   "keyboard": {
     "Space": "flip",
@@ -22,5 +27,10 @@
     "ArrowRight": "next"
   },
   "storage": "localStorage (browser-local)",
-  "official_jlpt_vocabulary_list": false
+  "official_jlpt_vocabulary_list": false,
+  "tiers": {
+    "최우선": 250,
+    "핵심": 350,
+    "보강": 200
+  }
 }
